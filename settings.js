@@ -39,7 +39,7 @@ const fs = require('fs')
 const chalk = require('chalk')
 if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
-//owmner v card
+//owmner vcard
 //________________________________________________________________________________________________________
 global.ytname = process.env.YT_NAME || "YT: S4 Salman YT" //ur yt chanel name
 //________________________________________________________________________________________________________
